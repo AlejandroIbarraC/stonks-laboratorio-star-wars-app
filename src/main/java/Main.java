@@ -28,6 +28,16 @@ public class Main {
         logger.info("Example log from {}", Main.class.getSimpleName());
         logger.debug("Debug");
 
+        System.out.println("Prueba 1");
+        System.out.println("Prueba 2");
+        System.out.println("Prueba 3");
+        System.out.println("Prueba 4");
+        System.out.println("Prueba 5");
+        System.out.println("Prueba 6");
+        System.out.println("Prueba 7");
+        System.out.println("Prueba 8");
+
+
         try {
 
             HttpGet request = new HttpGet("https://swapi.dev/api/people/");
